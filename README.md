@@ -91,3 +91,73 @@ Package Main berfungsi sebagai pusat logika, yaitu tempat menyimpan semua class 
 
 ### Project Files
 * Berisi struktur file utama project (source code .java, form .form, dan package lainnya).
+
+
+## Flowchart & Use Case
+
+Berikut adalah link Flowchart dan Use case diagram 
+
+Flowchart : https://app.diagrams.net/#G1wKB05q0JbQ4xsn0khmI7zLCrlHOijzv4#%7B%22pageId%22%3A%2280WTy4hSo2W5AGeVKFtQ%22%7D
+
+Use case : https://app.diagrams.net/#G1zMjbFOPNwCFiWQZRNhJr3RCdtqx2eVic#%7B%22pageId%22%3A%22AUcS-lJaB4qKYF_lkGg9%22%7D
+
+## grapgical User Interface (GUI)
+
+### Halaman Landing Page
+Merupakan halaman utama ketika pertama kali masuk ke platfrom. 
+
+### Halaman Login 
+Merupakan halaman setelah landing page, dengan fitur role, login sebagai admin, petugas, dan masyarakat, serta fitur registrasi untuk masyarakat
+
+## Admin
+
+### Halaman Wellcome 
+Merupakan halaman setelah login sebagai Admin dengan fitur lihat laporan, dan ada beberapa fitur yang hanya bisa di akses oleh admin seperti hapus laporan, registrasi petugas, ubah status, dan edit data petugas.
+
+### Halaman Lihat Laporan
+Merupakan halaman ketika admin memilih fitur lihat laporan yang menampilkan seluruh laporan baik yang sudah di tangani dan yang sedang di peroses
+
+### Halaman Hapus laporan
+Merupakan halaman ketika admin memilih fitur hapus laporan yang menampilkan seluruh laporan dan dapat di hapus
+
+### halaman Registrasi Petugas
+Merupakan halaman ketika admin memilih fitur registrasi petugas yang menampilkan dan menginput nama lengkap, username, password, no telepon, dan wilayah penugasan. Jadi akun petugas hanya di registrasikan oleh admin, bukan di petugas.
+
+### Hamana Ubah Status
+Merubahakan halaman ketika admin memilih fitur ubah status yang menampilkan seluruh laporan dan memilih laporan mana yang ingin di ubah ststusnya seperti, sedang di proses atau sudah di tangani.
+
+### Halaman Edit data Petugas
+Merupakan hamana ketika admin memilih fitur edit data petugas yang menampilkan halaman seperti registrasi petugas, dan admin dapat merubah data petugas tertentu.
+
+
+## Petugas
+
+### Halaman Wellcome 
+Merupakan haman ketika login sebagai petugas dengan menampilkan fitur lihat laporan, ubah status, dan tindak lanjut.
+
+### Halaman Lihat Laporan
+Merupakan halaman ketika petugas memilih fitur lihat laporan dan menampilkan seluruh laporan baik yang belum di tangani dan sudah di tangani.
+
+### Halaman Ubah Status
+Merupakan halaman ketika petugas memilih fitur uabh status yang menampilkan seluruh laporan dan dapat mengedit status laporan baik belum di tangani dan sudah di tangani
+
+### halaman Tindak lanjut
+Merupakan halaman ketika petugas memilih fitur tindak lanjut yang menampilkan tanggal tindakan, foto, dan keteranga, setelah menangai laporan.
+
+
+## Masyarakat
+
+### Halaman Registrasi Masyarakat\
+Merupakan haman ketika pengguna belum memiliki akun dengan menampilkan inputan nama, username, password, no telepon, dan alamat.
+
+### Halaman Wellcome 
+Merupakan halaman ketika login sebagai masyarkat dengan menampilkan fitur buat laporan, dan lihat laporan.
+
+### Halaman Buat Laporan
+Menampilkan halaman ketika pengguna memilih fitur buat laporan dengan menampilkan inputan nama lengkap, wilayah, layanan, foto, dan tanggal laporan.
+
+### halaman Lihat Laporan
+Menampilkan halaman ketika pengguna memilih fitur lihat laporan yang sudah di buat sebelumnya
+
+
+
