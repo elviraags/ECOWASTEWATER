@@ -147,7 +147,7 @@ Merupakan halaman ketika petugas memilih fitur tindak lanjut yang menampilkan ta
 
 ## Masyarakat
 
-### Halaman Registrasi Masyarakat\
+### Halaman Registrasi Masyarakat
 Merupakan haman ketika pengguna belum memiliki akun dengan menampilkan inputan nama, username, password, no telepon, dan alamat.
 
 ### Halaman Wellcome 
