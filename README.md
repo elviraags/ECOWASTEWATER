@@ -2,60 +2,53 @@
 
 Platfrom sanitasi ini digunakan untuk mempermudah masyarakat dalam melaporkan permasalahan air limbah langsung ke pihak terkait, dan juga dapat membantu masyarakat memahami pentingnya menjaga sanitasi melalui action, laporan dapat dibuat dengan cepat dan tepat, serta melalui community yang memperkuat kerja sama antara masyarakat dan instansi agar penanganan air limbah lebih efektif dan lingkungan tetap terjaga.
 
-## EcowasteWater
+### EcowasteWater
 EcowasteWater merupakan patform yang berfungsi sebagai sistem digital untuk mempermudah pengelolaan sanitasi dan air limbah melalui pemantauan, pelaporan, dan penyimpanan data secara terpusat. Melalui platform ini, masyarakat dapat melaporkan permasalahan terkait fasilitas sanitasi atau air limbah dengan cepat, sementara pihak pengelola dapat langsung menerima laporan, memverifikasi kondisi di lapangan, dan menindaklanjutinya sesuai prioritas. Sistem ini juga menyimpan data inspeksi, kondisi instalasi, dan riwayat perawatan secara otomatis, sehingga proses evaluasi dan pengambilan keputusan menjadi lebih akurat dan efisien.
 
 ## Fitur
 
-
-## OOP
-
+### OOP
 Object Oriented Programming (OOP) merupakan fondasi dalam pengembangan aplikasi karena memungkinkan proses pemrograman dilakukan dengan cara yang lebih terstruktur, terorganisir, dan mudah dikembangkan.
 
-## Encapsulation
 
+### Encapsulation
 Encapsulation merupakan konsep dalam Object Oriented Programming (OOP) yang bertujuan untuk menggabungkan data dengan fungsi yang mengelolanya dalam satu kesatuan (Class), serta membatasi akses langsung ke data tersebut. Dengan cara ini, data menjadi lebih terkontrol dan terproteksi karena hanya dapat diakses melalui method yang telah disediakan.
 
 
-## Abstraction
-
+### Abstraction
 berfokus pada penyederhanaan kompleksitas dengan hanya menampilkan bagian penting dari suatu objek dan menyembunyikan detail yang tidak diperlukan. Dengan abstraction, jadi hanya memberikan informasi atau fungsi yang relevan untuk digunakan.
 
 
-## Inheritance
+### Inheritance
 Inheritance merupakan konsep yang memungkinkan suatu class mewarisi sifat (atribut) dan perilaku (method) dari class lain. Class yang mewarisi disebut subclass, sedangkan class yang memberikan warisan disebut parent superclass. Dengan inheritance, maka tidak perlu menulis ulang kode yang sama, karena subclass dapat menggunakan atau mengembangkan fitur yang sudah ada pada superclass.
 
 
-## Polymorphism
-
+### Polymorphism
 Polymorphism adalah konsep yang memungkinkan satu nama method digunakan oleh beberapa class dengan cara atau hasil yang berbeda. Dengan adanya polymorphism, objek yang berbeda dapat merespons atau menjalankan perintah yang sama, tetapi dengan cara yang sesuai dengan karakteristik masing-masing.
 
 
-## Interface 
+### Interface 
 Interface merupakan struktur yang berisi kumpulan method tanpa implementasi (hanya berupa deklarasi). Interface berfungsi sebagai kontrak atau perjanjian yang harus dipatuhi oleh class yang menggunakannya. 
 
 
 ## Packages
-
 Packages berfungsi mengelompokkan class dan file-file program lainnya ke dalam satu wadah atau folder tertentu. Dengan adanya package, struktur program menjadi lebih teratur, mudah dikelola, serta menghindari konflik nama class yang sama.
 
 <img width="426" height="245" alt="image" src="https://github.com/user-attachments/assets/d5c61a63-8618-45e4-b83b-3e93f7dd8feb" />
 
-## Icon
+### Icon
 Package icon diguanakn untuk menyimpan file-file ikon atau gambar, dengan adanya package icon, file tidak akan bercampur dengan class java, sehingga struktur project lebih rapi dan terorganisir.
 
 <img width="411" height="514" alt="image" src="https://github.com/user-attachments/assets/61be8624-d6cc-48f3-8144-513142e92e20" />
 
 
-## Koneksi
-
+### Koneksi
 Package koneksi berfungsi untuk tempat mengelola semua file yang berkaitan dengan koneksi ke database. Terdapat dua file yaitu DatabaseConfig.java yang berfungsi untuk menghubungkan aplikasi ke database seperti MySQL. Kemudian ada file TesKoneksi.java yang berfungsi untuk memastikan bahwa database dapat di akses sebelum aplikasi di gunakan.
 
 <img width="416" height="80" alt="image" src="https://github.com/user-attachments/assets/0dd1f51f-342d-427c-8093-02552278d7c7" />
 
 
-## Main
-
+### Main
 Package Main berfungsi sebagai pusat logika, yaitu tempat menyimpan semua class yang terkait dengan proses uatama atau tampilan program.
 
 <img width="408" height="487" alt="image" src="https://github.com/user-attachments/assets/c64d170a-402e-47af-adec-b3bbc249235b" />
@@ -85,3 +78,16 @@ Package Main berfungsi sebagai pusat logika, yaitu tempat menyimpan semua class 
 * Register_Masyarakat.java : Halaman registrasi untuk masyarakat.
 * PA_SanitasiAirLimbah.java : Kemungkinan merupakan halaman utama yang menampilkan fitur aplikasi atau modul sanitasi (PA = Project Application / aplikasi utama).
 
+
+## Dependencies, Java Dependencies, dan Project Files
+
+### Dependencies 
+* AbsoluteLayout-RELEASE270.jar : Library layout bawaan NetBeans untuk mengatur posisi komponen secara bebas (AbsoluteLayout). Biasanya dipakai saat design GUI di NetBeans.
+* mysql-connector-j-9.4.0.jar : Driver koneksi ke database MySQL/MariaDB. Tanpa file ini aplikasi tidak bisa melakukan connect, INSERT, SELECT, UPDATE, dll ke MySQL.
+* protobuf-java-4.31.1.jar : Library Google Protocol Buffers. Biasanya dipakai oleh MySQL Connector versi baru untuk komunikasi atau serialisasi data.
+
+### Java Dependencies
+* JDK 24 (Default) : Artinya project menggunakan Java Development Kit versi 24 sebagai compiler dan runtime.
+
+### Project Files
+* Berisi struktur file utama project (source code .java, form .form, dan package lainnya).
